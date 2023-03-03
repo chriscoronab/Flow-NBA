@@ -1,0 +1,56 @@
+[
+    {
+    "id": 1,
+    "nombre": "Atlanta Hawks",
+    "precio": 8500,
+    "imagen": ""
+    },
+    {
+    "id": 2,
+    "nombre": "Boston Celtics",
+    "precio": 8500,
+    "imagen": ""
+    },
+    {
+    "id": 3,
+    "nombre": "Brookyln Nets",
+    "precio": 8500,
+    "imagen": ""
+    },
+    {
+    "id": 4,
+    "nombre": "Charlotte Hornets",
+    "precio": 8500,
+    "imagen": ""
+    },
+    {
+    "id": 5,
+    "nombre": "Chicago Bulls",
+    "precio": 8500,
+    "imagen": ""
+    },
+    {
+    "id": 6,
+    "nombre": "Cleveland Cavaliers",
+    "precio": 8500,
+    "imagen": ""
+    },
+    {
+    "id": 7,
+    "nombre": "Dallas Mavericks",
+    "precio": 8500,
+    "imagen": ""
+    },
+    {
+    "id": 8,
+    "nombre": "Denver Nuggets",
+    "precio": 8500,
+    "imagen": ""
+    },
+    {
+    "id": 9,
+    "nombre": "Detroit Pistons",
+    "precio": 8500,
+    "imagen": ""
+    }
+]
