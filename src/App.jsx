@@ -1,12 +1,12 @@
 import "./App.css";
-import Navbar from "./components/Navbar/index.jsx";
-import ItemListContainer from "./components/ItemListContainer/index.jsx";
+import Navbar from "./components/Navbar/navbar.jsx";
+import ItemListContainer from "./components/ItemListContainer/itemlist.jsx";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <ItemListContainer />
+      <ItemListContainer text="Bienvenido a Flow NBA" />
     </div>
   )
 }
