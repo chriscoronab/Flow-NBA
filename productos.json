@@ -1,56 +1,182 @@
 [
     {
-    "id": 1,
-    "nombre": "Atlanta Hawks",
-    "precio": 8500,
-    "imagen": ""
+        "id": 1,
+        "nombre": "Atlanta Hawks",
+        "precio": 8500,
+        "imagen": "./src/assets/atlanta-hawks1.jpg"
     },
     {
-    "id": 2,
-    "nombre": "Boston Celtics",
-    "precio": 8500,
-    "imagen": ""
+        "id": 2,
+        "nombre": "Boston Celtics",
+        "precio": 8500,
+        "imagen": "./src/assets/boston-celtics1.jpg"
     },
     {
-    "id": 3,
-    "nombre": "Brookyln Nets",
-    "precio": 8500,
-    "imagen": ""
+        "id": 3,
+        "nombre": "Brookyln Nets",
+        "precio": 8500,
+        "imagen": "./src/assets/brooklyn-nets1.jpg"
     },
     {
-    "id": 4,
-    "nombre": "Charlotte Hornets",
-    "precio": 8500,
-    "imagen": ""
+        "id": 4,
+        "nombre": "Charlotte Hornets",
+        "precio": 8500,
+        "imagen": "./src/assets/charlotte-hornets1.jpg"
     },
     {
-    "id": 5,
-    "nombre": "Chicago Bulls",
-    "precio": 8500,
-    "imagen": ""
+        "id": 5,
+        "nombre": "Chicago Bulls",
+        "precio": 8500,
+        "imagen": "./src/assets/chicago-bulls1.jpg"
     },
     {
-    "id": 6,
-    "nombre": "Cleveland Cavaliers",
-    "precio": 8500,
-    "imagen": ""
+        "id": 6,
+        "nombre": "Cleveland Cavaliers",
+        "precio": 8500,
+        "imagen": "./src/assets/cleveland-cavaliers1.jpg"
     },
     {
-    "id": 7,
-    "nombre": "Dallas Mavericks",
-    "precio": 8500,
-    "imagen": ""
+        "id": 7,
+        "nombre": "Dallas Mavericks",
+        "precio": 8500,
+        "imagen": "./src/assets/dallas-mavericks1.jpg"
     },
     {
-    "id": 8,
-    "nombre": "Denver Nuggets",
-    "precio": 8500,
-    "imagen": ""
+        "id": 8,
+        "nombre": "Denver Nuggets",
+        "precio": 8500,
+        "imagen": "./src/assets/denver-nuggets1.jpg"
     },
     {
-    "id": 9,
-    "nombre": "Detroit Pistons",
-    "precio": 8500,
-    "imagen": ""
+        "id": 9,
+        "nombre": "Detroit Pistons",
+        "precio": 8500,
+        "imagen": "./src/assets/detroit-pistons1.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Golden State Warriors",
+        "precio": 8500,
+        "imagen": "./src/assets/goldenstate-warriors1.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Houston Rockets",
+        "precio": 8500,
+        "imagen": "./src/assets/houston-rockets1.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Indiana Pacers",
+        "precio": 8500,
+        "imagen": "./src/assets/indiana-pacers1.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "LA Clippers",
+        "precio": 8500,
+        "imagen": "./src/assets/la-clippers1.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Los Angeles Lakers",
+        "precio": 8500,
+        "imagen": "./src/assets/losangeles-lakers1.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Memphis Grizzlies",
+        "precio": 8500,
+        "imagen": "./src/assets/memphis-grizzlies1.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Miami Heat",
+        "precio": 8500,
+        "imagen": "./src/assets/miami-heat1.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Milwaukee Bucks",
+        "precio": 8500,
+        "imagen": "./src/assets/milwaukee-bucks1.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Minnesota Timberwolves",
+        "precio": 8500,
+        "imagen": "./src/assets/minnesota-timberwolves1.jpg"
+    },
+    {
+        "id": 19,
+        "nombre": "New Orleans Pelicans",
+        "precio": 8500,
+        "imagen": "./src/assets/neworleans-pelicans1.jpg"
+    },
+    {
+        "id": 20,
+        "nombre": "New York Knicks",
+        "precio": 8500,
+        "imagen": "./src/assets/newyork-knicks1.jpg"
+    },
+    {
+        "id": 21,
+        "nombre": "Oklahoma Thunder",
+        "precio": 8500,
+        "imagen": "./src/assets/oklahoma-thunder1.jpg"
+    },
+    {
+        "id": 22,
+        "nombre": "Orlando Magic",
+        "precio": 8500,
+        "imagen": "./src/assets/orlando-magic1.jpg"
+    },
+    {
+        "id": 23,
+        "nombre": "Philadelphia 76ers",
+        "precio": 8500,
+        "imagen": "./src/assets/philadelphia-76ers1.jpg"
+    },
+    {
+        "id": 24,
+        "nombre": "Phoenix Suns",
+        "precio": 8500,
+        "imagen": "./src/assets/phoenix-suns1.jpg"
+    },
+    {
+        "id": 25,
+        "nombre": "Portland Blazers",
+        "precio": 8500,
+        "imagen": "./src/assets/portland-blazers1.jpg"
+    },
+    {
+        "id": 26,
+        "nombre": "Sacramento Kings",
+        "precio": 8500,
+        "imagen": "./src/assets/sacramento-kings1.jpg"
+    },
+    {
+        "id": 27,
+        "nombre": "San Antonio Spurs",
+        "precio": 8500,
+        "imagen": "./src/assets/sanantonio-spurs1.jpg"
+    },
+    {
+        "id": 28,
+        "nombre": "Toronto Raptors",
+        "precio": 8500,
+        "imagen": "./src/assets/toronto-raptors1.jpg"
+    },
+    {
+        "id": 29,
+        "nombre": "Utah Jazz",
+        "precio": 8500,
+        "imagen": "./src/assets/utah-jazz1.jpg"
+    },
+    {
+        "id": 30,
+        "nombre": "Washington Wizards",
+        "precio": 8500,
+        "imagen": "./src/assets/washington-wizards1.jpg"
     }
 ]

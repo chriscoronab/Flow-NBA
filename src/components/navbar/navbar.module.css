@@ -3,6 +3,7 @@ header{
     top: 0;
     z-index: 10;
     font-size: 1.2em;
+    background-color: black;
 }
 nav{
     display: flex;

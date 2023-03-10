@@ -1,8 +1,9 @@
 import styles from "./navbar.module.css";
 import flowNBA from "../../assets/flow-nba.jpg";
-import CartWidget from "../CartWidget/cartwidget.jsx";
+import CartWidget from "../CartWidget";
 
 const Navbar = () => {
+  
   return (
     <header>
       <nav>
