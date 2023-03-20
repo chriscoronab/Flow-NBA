@@ -6,6 +6,7 @@ import ItemListContainer from "./components/ItemListContainer";
 import ProductList from "./components/ProductList";
 import ProductItem from "./components/ProductItem";
 import products from "../productos.json";
+import atlantaHawks from "./assets/atlanta-hawks.jpg";
 
 function App() {
   const [productos, setProductos] = useState([]);

@@ -3,14 +3,14 @@
         "id": 1,
         "nombre": "Atlanta Hawks",
         "precio": 8500,
-        "imagen": "../src/assets/atlanta-hawks1.jpg",
+        "imagen": "./src/assets/atlanta-hawks1.jpg",
         "descripcion": "Camiseta Atlanta Hawks Jordan Statement Edition Swingman - Negro - Trae Young - Unisex"
     },
     {
         "id": 2,
         "nombre": "Boston Celtics",
         "precio": 8500,
-        "imagen": "../src/assets/boston-celtics1.jpg",
+        "imagen": "./src/assets/boston-celtics1.jpg",
         "descripcion": "Camiseta Boston Celtics Nike Icon Edition Swingman - Verde - Jayson Tatum - Unisex"
     },
     {
