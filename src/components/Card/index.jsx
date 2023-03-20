@@ -15,7 +15,7 @@ function ActionAreaCard({producto}) {
         <CardMedia
           component="img"
           height="340"
-          image={producto.imagen}
+          image={`../.${producto.imagen}`}
           alt={producto.nombre}
         />
         <CardContent>
