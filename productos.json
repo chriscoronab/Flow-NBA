@@ -3,7 +3,7 @@
         "id": 1,
         "nombre": "Atlanta Hawks",
         "precio": 8500,
-        "imagen": "./src/assets/atlanta-hawks1.jpg",
+        "imagen": "./public/images/atlanta-hawks1.jpg",
         "descripcion": "Camiseta Atlanta Hawks Jordan Statement Edition Swingman - Negro - Trae Young - Unisex"
     },
     {
