@@ -1,7 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import { Navigate, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import ItemListContainer from "./components/ItemListContainer";
 import ProductList from "./components/ProductList";
 import ProductItem from "./components/ProductItem";
