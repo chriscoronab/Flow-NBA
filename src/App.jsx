@@ -11,7 +11,7 @@ function App() {
   const [productos, setProductos] = useState([]);
   const getProductos = async () => {
     try{
-      const result = await axios.get("../productos.json");
+      const result = await axios.get(`../productos.json`);
       setProductos(result.data);
     }catch(error){
       console.log("ERROR:", error);
