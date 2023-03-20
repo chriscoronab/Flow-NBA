@@ -12,8 +12,9 @@ nav{
     align-items: center;
 }
 .headerImg{
-    margin: 0 4em 0 15em;
+    margin-left: 20em;
 }
-.listaMenu{
-    margin: 0 1.5em;
+.menu{
+    margin: 0 7em;
+    color: white;
 }

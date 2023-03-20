@@ -1,9 +1,11 @@
-.carrito{
+.cart{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 5em;
 }
-.carritoNumero{
+.cartIcon{
+    color: white;
+}
+.cartNumber{
     margin: 0 1em;
 }

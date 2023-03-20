@@ -5,9 +5,11 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function ActionAreaCard({producto}) {
   return (
+    <Link to={`/productos/${producto.id}`}>
     <Card sx={{ maxWidth: 345 }} className={styles.card}>
       <CardActionArea>
         <CardMedia
@@ -20,12 +22,16 @@ function ActionAreaCard({producto}) {
           <Typography gutterBottom variant="h5" component="div" key={producto.id}>
             {producto.nombre}
           </Typography>
+          <Typography variant="body1" className={styles.descripcion}>
+            {producto.descripcion}
+          </Typography>
           <Typography variant="body2">
-            Precio: {producto.precio}
+            Precio: $ {producto.precio}
           </Typography>
         </CardContent>
       </CardActionArea>
     </Card>
+    </Link>
   );
 };
 

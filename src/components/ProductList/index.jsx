@@ -5,7 +5,7 @@ const ProductList = ({ productos }) => {
   return (
     <div className={styles.productlist}>
         {productos.map((producto) => {
-            return <Card producto={producto} />;
+            return <Card key={producto.id} producto={producto} />;
         })}
     </div>
   )

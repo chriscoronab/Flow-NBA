@@ -1,4 +1,8 @@
 .card{
-    width: 30%;
     margin: 0.5em;
+    height: 95%;
+}
+
+.descripcion{
+    padding-bottom: 0.3em;
 }
