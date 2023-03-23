@@ -4,209 +4,239 @@
         "nombre": "Atlanta Hawks",
         "precio": 8500,
         "imagen": "./images/atlanta-hawks1.jpg",
-        "descripcion": "Camiseta Atlanta Hawks Jordan Statement Edition Swingman - Negro - Trae Young - Unisex"
+        "descripcion": "Camiseta Atlanta Hawks Jordan Statement Edition Swingman - Negro - Trae Young - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 2,
         "nombre": "Boston Celtics",
         "precio": 8500,
         "imagen": "./images/boston-celtics1.jpg",
-        "descripcion": "Camiseta Boston Celtics Nike Icon Edition Swingman - Verde - Jayson Tatum - Unisex"
+        "descripcion": "Camiseta Boston Celtics Nike Icon Edition Swingman - Verde - Jayson Tatum - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 3,
         "nombre": "Brookyln Nets",
         "precio": 8500,
         "imagen": "./images/brooklyn-nets1.jpg",
-        "descripcion": "Camiseta Brooklyn Nets Jordan Statement Edition Swingman - Negro - Ben Simmons - Unisex"
+        "descripcion": "Camiseta Brooklyn Nets Jordan Statement Edition Swingman - Negro - Ben Simmons - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 4,
         "nombre": "Charlotte Hornets",
         "precio": 8500,
         "imagen": "./images/charlotte-hornets1.jpg",
-        "descripcion": "Charlotte Hornets Jordan Brand Icon Edition Swingman - Celeste - LaMelo Ball - Unisex"
+        "descripcion": "Charlotte Hornets Jordan Brand Icon Edition Swingman - Celeste - LaMelo Ball - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 5,
         "nombre": "Chicago Bulls",
         "precio": 8500,
         "imagen": "./images/chicago-bulls1.jpg",
-        "descripcion": "Camiseta Chicago Bulls Nike Icon Edition Swingman - Rojo - DeMar DeRozan - Unisex"
+        "descripcion": "Camiseta Chicago Bulls Nike Icon Edition Swingman - Rojo - DeMar DeRozan - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 6,
         "nombre": "Cleveland Cavaliers",
         "precio": 8500,
         "imagen": "./images/cleveland-cavaliers1.jpg",
-        "descripcion": "Camiseta Cleveland Cavaliers Nike Icon Edition Swingman - Granate - Evan Mobley - Unisex"
+        "descripcion": "Camiseta Cleveland Cavaliers Nike Icon Edition Swingman - Granate - Evan Mobley - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 7,
         "nombre": "Dallas Mavericks",
         "precio": 8500,
         "imagen": "./images/dallas-mavericks1.jpg",
-        "descripcion": "Camiseta Dallas Mavericks Nike Icon Edition Swingman - Azul - Kyrie Irving - Hombre"
+        "descripcion": "Camiseta Dallas Mavericks Nike Icon Edition Swingman - Azul - Kyrie Irving - Hombre",
+        "categoria": "Oeste"
     },
     {
         "id": 8,
         "nombre": "Denver Nuggets",
         "precio": 8500,
         "imagen": "./images/denver-nuggets1.jpg",
-        "descripcion": "Camiseta Denver Nuggets Nike Association Edition Swingman - Blanco - Aaron Gordon - Unisex"
+        "descripcion": "Camiseta Denver Nuggets Nike Association Edition Swingman - Blanco - Aaron Gordon - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 9,
         "nombre": "Detroit Pistons",
         "precio": 8500,
         "imagen": "./images/detroit-pistons1.jpg",
-        "descripcion": "Camiseta Detroit Pistons Nike Association Edition Swingman - Blanco - Bojan Bogdanovic - Unisex"
+        "descripcion": "Camiseta Detroit Pistons Nike Association Edition Swingman - Blanco - Bojan Bogdanovic - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 10,
         "nombre": "Golden State Warriors",
         "precio": 8500,
         "imagen": "./images/goldenstate-warriors1.jpg",
-        "descripcion": "Camiseta Golden State Warriors Nike Icon Edition Swingman - Azul - Stephen Curry - Unisex"
+        "descripcion": "Camiseta Golden State Warriors Nike Icon Edition Swingman - Azul - Stephen Curry - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 11,
         "nombre": "Houston Rockets",
         "precio": 8500,
         "imagen": "./images/houston-rockets1.jpg",
-        "descripcion": "Camiseta Houston Rockets Nike Icon Edition Swingman - Rojo - Alperen Sengun - Hombres"
+        "descripcion": "Camiseta Houston Rockets Nike Icon Edition Swingman - Rojo - Alperen Sengun - Hombres",
+        "categoria": "Oeste"
     },
     {
         "id": 12,
         "nombre": "Indiana Pacers",
         "precio": 8500,
         "imagen": "./images/indiana-pacers1.jpg",
-        "descripcion": "Camiseta Indiana Pacers Nike Icon Edition Swingman - Azul marino - Tyrese Haliburton - Hombres"
+        "descripcion": "Camiseta Indiana Pacers Nike Icon Edition Swingman - Azul marino - Tyrese Haliburton - Hombres",
+        "categoria": "Este"
     },
     {
         "id": 13,
         "nombre": "LA Clippers",
         "precio": 8500,
         "imagen": "./images/la-clippers1.jpg",
-        "descripcion": "Camiseta Los Angeles Clippers Jordan Statement Edition Swingman - Negro - Russell Westbrook - Unisex"
+        "descripcion": "Camiseta Los Angeles Clippers Jordan Statement Edition Swingman - Negro - Russell Westbrook - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 14,
         "nombre": "Los Angeles Lakers",
         "precio": 8500,
         "imagen": "./images/losangeles-lakers1.jpg",
-        "descripcion": "Camiseta Los Angeles Lakers Nike Icon Edition Swingman - Amarillo - Lebron James - Unisex"
+        "descripcion": "Camiseta Los Angeles Lakers Nike Icon Edition Swingman - Amarillo - Lebron James - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 15,
         "nombre": "Memphis Grizzlies",
         "precio": 8500,
         "imagen": "./images/memphis-grizzlies1.jpg",
-        "descripcion": "Camiseta Memphis Grizzlies Nike City Edition Swingman - Negro - Ja Morant - Unisex"
+        "descripcion": "Camiseta Memphis Grizzlies Nike City Edition Swingman - Negro - Ja Morant - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 16,
         "nombre": "Miami Heat",
         "precio": 8500,
         "imagen": "./images/miami-heat1.jpg",
-        "descripcion": "Camiseta Miami Heat Nike Icon Edition Swingman - Negro - Tyler Herro - Unisex"
+        "descripcion": "Camiseta Miami Heat Nike Icon Edition Swingman - Negro - Tyler Herro - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 17,
         "nombre": "Milwaukee Bucks",
         "precio": 8500,
         "imagen": "./images/milwaukee-bucks1.jpg",
-        "descripcion": "Camiseta Milwaukee Bucks Nike Icon Edition Swingman - Verde - Giannis Antetokounmpo - Unisex"
+        "descripcion": "Camiseta Milwaukee Bucks Nike Icon Edition Swingman - Verde - Giannis Antetokounmpo - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 18,
         "nombre": "Minnesota Timberwolves",
         "precio": 8500,
         "imagen": "./images/minnesota-timberwolves1.jpg",
-        "descripcion": "Camiseta Minnesota Timberwolves Jordan Statement Edition Swingman - Gris - Anthony Edwards - Unisex"
+        "descripcion": "Camiseta Minnesota Timberwolves Jordan Statement Edition Swingman - Gris - Anthony Edwards - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 19,
         "nombre": "New Orleans Pelicans",
         "precio": 8500,
         "imagen": "./images/neworleans-pelicans1.jpg",
-        "descripcion": "Camiseta New Orleans Pelicans Jordan Statement Edition Swingman - Rojo - Zion Williamson - Unisex"
+        "descripcion": "Camiseta New Orleans Pelicans Jordan Statement Edition Swingman - Rojo - Zion Williamson - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 20,
         "nombre": "New York Knicks",
         "precio": 8500,
         "imagen": "./images/newyork-knicks1.jpg",
-        "descripcion": "Camiseta New York Knicks Nike Icon Edition Swingman - Azul - Julius Randle - Unisex"
+        "descripcion": "Camiseta New York Knicks Nike Icon Edition Swingman - Azul - Julius Randle - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 21,
         "nombre": "Oklahoma City Thunder",
         "precio": 8500,
         "imagen": "./images/oklahoma-thunder1.jpg",
-        "descripcion": "Camiseta Oklahoma City Thunder Nike Icon Edition Swingman - Azul - Josh Giddey - Unisex"
+        "descripcion": "Camiseta Oklahoma City Thunder Nike Icon Edition Swingman - Azul - Josh Giddey - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 22,
         "nombre": "Orlando Magic",
         "precio": 8500,
         "imagen": "./images/orlando-magic1.jpg",
-        "descripcion": "Camiseta Orlando Magic Hardwood Classics Road Swingman - Negro - Tracy McGrady - Hombres"
+        "descripcion": "Camiseta Orlando Magic Hardwood Classics Road Swingman - Negro - Tracy McGrady - Hombres",
+        "categoria": "Este"
     },
     {
         "id": 23,
         "nombre": "Philadelphia 76ers",
         "precio": 8500,
         "imagen": "./images/philadelphia-76ers1.jpg",
-        "descripcion": "Camiseta Philadelphia 76ers Jordan Statement Edition Swingman - Rojo - James Harden - Unisex"
+        "descripcion": "Camiseta Philadelphia 76ers Jordan Statement Edition Swingman - Rojo - James Harden - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 24,
         "nombre": "Phoenix Suns",
         "precio": 8500,
         "imagen": "./images/phoenix-suns1.jpg",
-        "descripcion": "Camiseta Phoenix Suns Nike Icon Edition Swingman - Púrpura - Kevin Durant - Unisex"
+        "descripcion": "Camiseta Phoenix Suns Nike Icon Edition Swingman - Púrpura - Kevin Durant - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 25,
         "nombre": "Portland Trail Blazers",
         "precio": 8500,
         "imagen": "./images/portland-blazers1.jpg",
-        "descripcion": "Camiseta Portland Trail Blazers Jordan Statement Edition Swingman - Rojo - Damian Lillard - Unisex"
+        "descripcion": "Camiseta Portland Trail Blazers Jordan Statement Edition Swingman - Rojo - Damian Lillard - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 26,
         "nombre": "Sacramento Kings",
         "precio": 8500,
         "imagen": "./images/sacramento-kings1.jpg",
-        "descripcion": "Camiseta Sacramento Kings Nike Icon Edition Swingman - Púrpura - De'Aaron Fox - Unisex"
+        "descripcion": "Camiseta Sacramento Kings Nike Icon Edition Swingman - Púrpura - De'Aaron Fox - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 27,
         "nombre": "San Antonio Spurs",
         "precio": 8500,
         "imagen": "./images/sanantonio-spurs1.jpg",
-        "descripcion": "San Antonio Spurs Nike City Edition Swingman - Celeste - Jeremy Sochan - Unisex"
+        "descripcion": "San Antonio Spurs Nike City Edition Swingman - Celeste - Jeremy Sochan - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 28,
         "nombre": "Toronto Raptors",
         "precio": 8500,
         "imagen": "./images/toronto-raptors1.jpg",
-        "descripcion": "Camiseta Toronto Raptors Nike Icon Edition Swingman - Rojo - OG Anunoby - Unisex"
+        "descripcion": "Camiseta Toronto Raptors Nike Icon Edition Swingman - Rojo - OG Anunoby - Unisex",
+        "categoria": "Este"
     },
     {
         "id": 29,
         "nombre": "Utah Jazz",
         "precio": 8500,
         "imagen": "./images/utah-jazz1.jpg",
-        "descripcion": "Camiseta Utah Jazz Jordan Statement Edition Swingman - Negro - Lauri Markkanen - Unisex"
+        "descripcion": "Camiseta Utah Jazz Jordan Statement Edition Swingman - Negro - Lauri Markkanen - Unisex",
+        "categoria": "Oeste"
     },
     {
         "id": 30,
         "nombre": "Washington Wizards",
         "precio": 8500,
         "imagen": "./images/washington-wizards1.jpg",
-        "descripcion": "Camiseta Washington Wizards Nike Association Edition Swingman - Blanco - Bradley Beal - Unisex"
+        "descripcion": "Camiseta Washington Wizards Nike Association Edition Swingman - Blanco - Bradley Beal - Unisex",
+        "categoria": "Este"
     }
 ]

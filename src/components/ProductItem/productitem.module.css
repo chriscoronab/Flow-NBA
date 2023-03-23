@@ -1,9 +1,0 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    margin: 0 2em;
-}
-.imagen{
-    width: 60%;
-    margin-right: 2em;
-}

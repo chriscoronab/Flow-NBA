@@ -1,7 +1,7 @@
 import styles from "./navbar.module.css";
 import flowNBA from "../../assets/flow-nba.jpg";
 import CartWidget from "../CartWidget";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   let activeStyle={
@@ -13,10 +13,15 @@ const Navbar = () => {
         <NavLink to="/">
           <img className={styles.headerImg} src={flowNBA} alt="storeName" />
         </NavLink>
-        <NavLink to="/productos" style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-          <p className={styles.menu}>Productos</p>
+        <NavLink to="/category/east-side" style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+          <p className={styles.menu}>East Side</p>
         </NavLink>
-        <CartWidget />
+        <NavLink to="/category/west-side" style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+          <p className={styles.menu}>West Side</p>
+        </NavLink>
+        <Link to="/cart">
+          <CartWidget />
+        </Link>
       </nav>
     </header>
   )

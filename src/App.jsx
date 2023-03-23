@@ -3,14 +3,14 @@ import { useEffect, useState } from "react";
 import { Navigate, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import ItemListContainer from "./components/ItemListContainer";
-import ProductList from "./components/ProductList";
-import ProductItem from "./components/ProductItem";
-import products from "../productos.json";
+import ItemDetailContainer from "./components/ItemDetailContainer";
+import ItemListFiltered from "./components/ItemListFiltered";
+import equipos from "../productos.json";
 
 function App() {
   const [productos, setProductos] = useState([]);
   const getProductos = () => {
-  setProductos(products);
+  setProductos(equipos);
   };
   useEffect(() => {
   getProductos();
@@ -20,12 +20,14 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
-        <Route path="/home" element={<ItemListContainer text="Bienvenido a Flow NBA" />} />
-        <Route path="/productos" element={<ProductList productos={productos} />} />
-        <Route path="/productos/:id" element={<ProductItem productos={productos} />} />
+        <Route path="/home" element={<ItemListContainer productos={productos} />} />
+        <Route path="/item/:id" element={<ItemDetailContainer productos={productos} />} />
+        <Route path="/category/east-side" element={<ItemListFiltered productos={productos} categoria="Este" />} />
+        <Route path="/category/west-side" element={<ItemListFiltered productos={productos} categoria="Oeste" />} />
+        <Route path="/cart" />
       </Routes>
     </div>
-  )
+  );
 };
 
 export default App;

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 function ActionAreaCard({producto}) {
   return (
-    <Link to={`/productos/${producto.id}`}>
+    <Link to={`/item/${producto.id}`}>
     <Card sx={{ maxWidth: 345 }} className={styles.card}>
       <CardActionArea>
         <CardMedia
