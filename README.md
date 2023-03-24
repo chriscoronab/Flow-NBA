@@ -1,4 +1,3 @@
-# Flow-NBA
 Flow NBA | Urban Store
 Developer: Christian Corona
 
