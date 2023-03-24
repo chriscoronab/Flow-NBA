@@ -1,9 +1,9 @@
-import styles from "./buttons.module.css";
 import Button from "@mui/joy/Button";
-import Add from "@mui/icons-material/Add";
 
-export default function ButtonIcons() {
+function ButtonItemDetail() {
   return (
-    <Button startDecorator={<Add />}>Agregar al carrito</Button>
+    <Button color="success">Agregar al carrito</Button>
   );
 };
+
+export default ButtonItemDetail;

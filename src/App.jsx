@@ -1,11 +1,12 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import { Navigate, Routes, Route } from "react-router-dom";
+import equipos from "../productos.json";
 import Navbar from "./components/navbar";
 import ItemListContainer from "./components/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import ItemListFiltered from "./components/ItemListFiltered";
-import equipos from "../productos.json";
+import Footer from "./components/Footer";
 
 function App() {
   const [productos, setProductos] = useState([]);
@@ -26,6 +27,7 @@ function App() {
         <Route path="/category/west-side" element={<ItemListFiltered productos={productos} categoria="Oeste" />} />
         <Route path="/cart" />
       </Routes>
+      <Footer />
     </div>
   );
 };

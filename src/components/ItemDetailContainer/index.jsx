@@ -1,6 +1,7 @@
 import styles from "./itemdetail.module.css";
 import { useParams } from "react-router-dom";
 import Typography from "@mui/material/Typography";
+import ButtonItemDetail from "../Buttons";
 
 const ItemDetailContainer = ({ productos }) => {
   const { id } = useParams();
@@ -15,6 +16,7 @@ const ItemDetailContainer = ({ productos }) => {
           </Typography>
           <p className={styles.text}>{producto.descripcion}</p>
           <p className={styles.text}>Precio: $ {producto.precio}</p>
+          <ButtonItemDetail />
         </div>
       </div>
     </div>

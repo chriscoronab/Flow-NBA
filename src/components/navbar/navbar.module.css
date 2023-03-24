@@ -19,3 +19,6 @@ nav{
     margin: 0 1em;
     color: white;
 }
+.menu:hover{
+    transform: scale(1.2, 1.2);
+}
