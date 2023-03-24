@@ -1,6 +1,8 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import { Navigate, Routes, Route } from "react-router-dom";
+import { useContext } from "react";
+import { CartContext } from "./contexts/CartContext";
 import equipos from "../productos.json";
 import Navbar from "./components/navbar";
 import ItemListContainer from "./components/ItemListContainer";

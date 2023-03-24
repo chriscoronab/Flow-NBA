@@ -3,7 +3,7 @@
     margin-top: 1em;
 }
 .svg{
-    margin: 1em 2em 1em 2em;
+    margin: 1em 2em;
 }
 .svg:hover{
     transform: scale(1.2, 1.2);
