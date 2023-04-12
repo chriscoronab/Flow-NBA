@@ -1,0 +1,22 @@
+.cart{
+    text-align: center;
+}
+.cartList{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.cartTitle{
+    margin: 1em 0;
+    text-align: center;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+}
+.buttons{
+    margin: 0 1em;
+}

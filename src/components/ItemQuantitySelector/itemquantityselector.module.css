@@ -1,0 +1,36 @@
+.itemCount{
+    width: min-content;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5em;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.restButton{
+    background-color: transparent;
+    width: 1.5em;
+    height: 1.5em;
+    border: none;
+    font-size: 1em;
+}
+.restButton:disabled{
+    color: gray;
+}
+.number{
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    width: 2em;
+    height: 1.5em;
+    font-size: 1em;
+    padding-top: 0.3em;
+}
+.addButton{
+    background-color: transparent;
+    width: 1.5em;
+    height: 1.5em;
+    border: none;
+}

@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 2em;
+}
+.image{
+    width: 50%;
+    margin-right: 2em;
+}
+.textContainer{
+    width: 30%;
+}
+.text{
+    font-size: 1.2em;
+}
+.keepBuyingButton{
+    margin-bottom: 1em;
+}

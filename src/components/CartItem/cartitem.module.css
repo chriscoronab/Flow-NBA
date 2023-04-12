@@ -1,0 +1,14 @@
+.card{
+    margin: 0.5em;
+    height: 95%;
+    padding-bottom: 0.5em;
+}
+.descripcion{
+    padding-bottom: 0.3em;
+}
+.cardText{
+    margin-bottom: 0;
+}
+.removeButton{
+    margin: 0 0 1em 1em;
+}

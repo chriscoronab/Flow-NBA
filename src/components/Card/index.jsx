@@ -7,26 +7,26 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
 
-function ActionAreaCard({producto}) {
+function ActionAreaCard({ item }) {
   return (
-    <Link to={`/item/${producto.id}`}>
+    <Link to={`/item/${item.id}`}>
     <Card sx={{ maxWidth: 345 }} className={styles.card}>
       <CardActionArea>
         <CardMedia
           component="img"
           height="340"
-          image={`../../${producto.imagen}`}
-          alt={producto.nombre}
+          image={item.imagen}
+          alt={item.nombre}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div" key={producto.id}>
-            {producto.nombre}
+          <Typography gutterBottom variant="h5" component="div" key={item.id}>
+            {item.nombre}
           </Typography>
           <Typography variant="body1" className={styles.descripcion}>
-            {producto.descripcion}
+            {item.descripcion}
           </Typography>
           <Typography variant="body2">
-            Precio: $ {producto.precio}
+            Precio: $ {item.precio}
           </Typography>
         </CardContent>
       </CardActionArea>

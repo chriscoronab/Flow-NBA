@@ -1,35 +1,32 @@
 import "./App.css";
-import { useEffect, useState } from "react";
 import { Navigate, Routes, Route } from "react-router-dom";
-import { useContext } from "react";
-import { CartContext } from "./contexts/CartContext";
-import equipos from "../productos.json";
-import Navbar from "./components/navbar";
+import CartContextProvider from "./contexts/CartContext";
+import NavBar from "./components/NavBar";
 import ItemListContainer from "./components/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
-import ItemListFiltered from "./components/ItemListFiltered";
+import Error from "./components/Error";
+import ItemListFilteredContainer from "./components/ItemListFilteredContainer";
+import CartView from "./components/CartView";
+import Checkout from "./components/Checkout";
 import Footer from "./components/Footer";
 
 function App() {
-  const [productos, setProductos] = useState([]);
-  const getProductos = () => {
-  setProductos(equipos);
-  };
-  useEffect(() => {
-  getProductos();
-  }, []);
   return (
     <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Navigate to="/home" />} />
-        <Route path="/home" element={<ItemListContainer productos={productos} />} />
-        <Route path="/item/:id" element={<ItemDetailContainer productos={productos} />} />
-        <Route path="/category/east-side" element={<ItemListFiltered productos={productos} categoria="Este" />} />
-        <Route path="/category/west-side" element={<ItemListFiltered productos={productos} categoria="Oeste" />} />
-        <Route path="/cart" />
-      </Routes>
-      <Footer />
+      <CartContextProvider>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<ItemListContainer />} />
+          <Route path="/item/:id" element={<ItemDetailContainer />} />
+          <Route path="/category/east-side" element={<ItemListFilteredContainer categoria="Este" />} />
+          <Route path="/category/west-side" element={<ItemListFilteredContainer categoria="Oeste" />} />
+          <Route path="/cart" element={<CartView />} />
+          <Route path="/checkout" element={<Checkout />} /> 
+          <Route path="*" element={<Error />} />
+        </Routes>
+        <Footer /> 
+      </CartContextProvider>
     </div>
   );
 };

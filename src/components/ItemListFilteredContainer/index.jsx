@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import db from "../../../db/firebase-config";
 import { collection, getDocs } from "firebase/firestore";
-import ItemList from "../ItemList";
+import ItemListFiltered from "../ItemListFiltered";
 import Spinner from "../Spinner";
 
-const ItemListContainer = () => {
+const ItemListFilteredContainer = ({ categoria }) => {
   const [items, setItems] = useState([]);
   const itemsRef = collection(db, "items");
   const [loading, setLoading] = useState(true);
@@ -16,18 +16,16 @@ const ItemListContainer = () => {
     }));
     setItems(items);
     setLoading(false);
-    };
+  };
   useEffect(() => {
-  getItems();
+    getItems();
   }, []);
   if(loading) {
-  return <Spinner />;
+    return <Spinner />;
   };
   return (
-    <div>
-        <ItemList items={items} />
-    </div>
+    <ItemListFiltered items={items} categoria={categoria} />
   );
 };
 
-export default ItemListContainer;
+export default ItemListFilteredContainer;

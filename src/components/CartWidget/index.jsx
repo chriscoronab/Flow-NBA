@@ -4,12 +4,13 @@ import { useContext } from "react";
 import { CartContext } from "../../contexts/CartContext";
 
 const CartWidget = () => {
-  const value = useContext(CartContext);
+  const {cantidadCarrito} = useContext(CartContext);
   return (
     <div className={styles.cart}>
       <BsCart3 className={styles.cartIcon} />
+      <span className={styles.cartQuantity}>{cantidadCarrito()}</span>
     </div>
-  )
+  );
 };
 
 export default CartWidget;

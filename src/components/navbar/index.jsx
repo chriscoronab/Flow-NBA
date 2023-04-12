@@ -3,7 +3,7 @@ import flowNBA from "../../assets/flow-nba.jpg";
 import CartWidget from "../CartWidget";
 import { Link, NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const NavBar = () => {
   let activeStyle={
     fontWeight: "bold",
   };
@@ -27,4 +27,4 @@ const Navbar = () => {
   )
 };
 
-export default Navbar;
+export default NavBar;
