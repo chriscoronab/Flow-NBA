@@ -9,7 +9,7 @@ import KeepBuyingButton from "../Buttons/KeepBuyingButton";
 
 const ItemDetail = ({ item }) => {
     const [quantity, setQuantity] = useState();
-    const [talle, setTalle] = useState();
+    const [talle, setTalle] = useState("M");
     const { addItem } = useContext(CartContext);
     const handlerSetTalle = (e) => {
         let opcion = e.target.value;
