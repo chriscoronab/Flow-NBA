@@ -1,24 +1,20 @@
-header{
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    font-size: 1.2em;
-    background-color: black;
-}
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.headerImg{
+.logo img{
     margin-left: 20em;
     margin-right: 3em;
 }
-.menu{
-    margin: 0 1em;
-    color: white;
-}
-.menu:hover{
-    transform: scale(1.2, 1.2);
+
+@media (max-width: 768px){
+    .burger{
+        margin-left: 0.5em;
+    }
+    .logo img{
+        width: 105%;
+        margin: 0;
+    }
+    .eastSide{
+        padding: 0 0 1em 0;
+    }
+    .westSide{
+        padding-bottom: 1em;
+    }
 }
