@@ -1,4 +1,4 @@
-import styles from "./navbar.module.css";
+import styles from "./nav.module.css";
 import flowNBA from "../../assets/flow-nba.jpg";
 import CartWidget from "../CartWidget";
 import { Link, NavLink } from "react-router-dom";
@@ -6,7 +6,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import Menu from "../Menu";
 
-const NavBar = () => {
+const Nav = () => {
   let activeStyle = {
     fontWeight: "bold",
   };
@@ -43,7 +43,7 @@ const NavBar = () => {
   )
 };
 
-export default NavBar;
+export default Nav;
 
 const NavContainer = styled.nav`
   position: sticky;
@@ -68,6 +68,7 @@ const NavContainer = styled.nav`
 .navItems p:hover{
     transform: scale(1.2, 1.2);
 }
+
 @media (max-width: 768px){
   .navItems{
       position: absolute;

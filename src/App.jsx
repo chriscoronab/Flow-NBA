@@ -1,7 +1,7 @@
 import "./App.css";
 import { Navigate, Routes, Route } from "react-router-dom";
 import CartContextProvider from "./contexts/CartContext";
-import NavBar from "./components/NavBar";
+import Nav from "./components/Nav";
 import ItemListContainer from "./components/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import Error from "./components/Error";
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <CartContextProvider>
-        <NavBar />
+        <Nav />
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<ItemListContainer />} />
